@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.dineshv.selenium.selenium-3-browser-console-logs.main" target="1.8" />
+      <module name="com.dineshv.selenium.selenium-3-browser-console-logs.test" target="1.8" />
+      <module name="com.dineshv.selenium.selenium-4-browser-console-logs" target="1.8" />
+      <module name="com.dineshv.selenium.selenium-4-browser-console-logs.main" target="1.8" />
+      <module name="com.dineshv.selenium.selenium-4-browser-console-logs.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

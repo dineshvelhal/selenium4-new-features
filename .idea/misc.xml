@@ -3,6 +3,10 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/frames-and-tabs" />
+    <file type="web" url="file://$PROJECT_DIR$/selenium-3-browser-console-logs" />
+    <file type="web" url="file://$PROJECT_DIR$/selenium-4-browser-console-logs" />
+    <file type="web" url="file://$PROJECT_DIR$/selenium-4-cdp-console-logs" />
+    <file type="web" url="file://$PROJECT_DIR$/selenium4-cdp-geolocation" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

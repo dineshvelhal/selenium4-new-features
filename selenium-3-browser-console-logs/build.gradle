@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dineshv.selenium'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+
+    // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.0.3'
+
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+}
+
+test {
+    useTestNG{
+        suites 'src/test/resources/testng.xml'
+        useDefaultListeners = true
+    }
+    reports.html.required = false
+}
