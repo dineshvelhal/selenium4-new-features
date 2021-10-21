@@ -11,6 +11,7 @@ public class EmulateGeolocation extends Base {
   public void emulateGeolocation() {
     ChromeDriver cDriver = (ChromeDriver) driver;
 
+    // Set the geo-location to Google Headquarters
     HashMap<String, Object> coords = new HashMap<>();
     coords.put("latitude", 37.422048);
     coords.put("longitude", -122.084014);
